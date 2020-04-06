@@ -19,8 +19,8 @@ NC='\033[0m'
 
 
 function compile_node() {
-  echo -e "Thank You For Using BITMONEY, The Fastest Cryptocurrency In The World , 6x faster Than DASH"
-  echo -e "Preparing System For BITMONEY Masternode Installation "
+  echo -e "Thank You For Using $COIN_NAME"
+  echo -e "Preparing System For $COIN_NAME Masternode Installation "
   cd $TMP_FOLDER
   wget -q $COIN_REPO
   compile_error
