@@ -207,12 +207,12 @@ fi
 }
 
 function detect_ubuntu() {
- if [[ $(lsb_release -d) == *16.04* ]]; then
+ if [[ $(lsb_release -d) == *18.04* ]]; then
+   UBUNTU_VERSION=18
+ elif [[ $(lsb_release -d) == *16.04* ]]; then
    UBUNTU_VERSION=16
- elif [[ $(lsb_release -d) == *14.04* ]]; then
-   UBUNTU_VERSION=14
 else
-   echo -e "${RED}You are not running Ubuntu 14.04 or 16.04 Installation is cancelled.${NC}"
+   echo -e "${RED}You are not running Ubuntu 16.04 or 18.04 Installation is cancelled.${NC}"
    exit 1
 fi
 }
