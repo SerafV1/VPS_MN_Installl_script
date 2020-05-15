@@ -8,7 +8,7 @@ apt-get update -y && apt-get upgrade -y && apt-get install git -y && apt-get ins
 
 ► <b>STEP 3 : CLONE INSTALLATION SCRIPT FROM GIT HUB</b>
 
-git clone https://github.com/Weiss1985/VPS_MN_Installl_script.git
+git clone https://github.com/SerafV1/VPS_MN_Installl_script.git
 
 ► <b>STEP 4 : ENTER INTO FOLDER CLONED FROM GITHUB</b>
 
