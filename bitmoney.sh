@@ -6,7 +6,7 @@ CONFIGFOLDER='/root/.BitMoney'
 COIN_DAEMON='/usr/local/bin/BitMoneyd'
 COIN_CLI='/usr/local/bin/BitMoney-cli'
 COIN_REPO='https://github.com/CryptVenture/BitMoneyV22/releases/download/2.2.0.2/BitMoney-2.2.0.2-Linux-16.04.tar.gz'
-COIN_NAME='BITMONEY'
+COIN_NAME='BitMoney'
 COIN_PORT=49444
 
 
